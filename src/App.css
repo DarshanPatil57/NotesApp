@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  height: 100vh;
+  display: flex;
+  gap: 40px;
+  padding: 60px;
+}
+
