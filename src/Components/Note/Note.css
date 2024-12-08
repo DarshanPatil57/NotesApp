@@ -1,7 +1,7 @@
 .note {
     padding: 25px;
-    min-height: 250px; /* Use min-height for flexibility */
-    width: 260px; /* Base width for larger screens */
+    min-height: 250px; 
+    width: 260px; 
     display: flex;
     flex-direction: column;
     background-color: #fd5050;
@@ -24,8 +24,8 @@
 .bottom span {
     font-size: 1.2vw;
     margin-top: 10px;
-    height: 38px; /* Fixed value */
-    width: 40px; /* Fixed value */
+    height: 38px; 
+    width: 40px; 
     display: flex;
     align-items: center;
     justify-content: center;

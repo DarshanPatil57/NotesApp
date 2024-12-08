@@ -69,10 +69,17 @@ function App() {
   };
 
   return (
+    <>
+    <div className="banner">
+        <h2>Write it down before you forget.</h2>
+        <p> Make each note count!</p>
+      </div>
     <div className='App'>
+      
       <Sidebar addNote={addNote} />
       <NoteContainer notes={notes} deleteNote={deleteNote} updateNote={updateNote} />
     </div>
+    </>
   );
 }
 
